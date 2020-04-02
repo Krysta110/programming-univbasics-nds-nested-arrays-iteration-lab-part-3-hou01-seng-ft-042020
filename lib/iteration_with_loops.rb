@@ -14,7 +14,7 @@ while row < src.length do
   end
   row += 1
 end
-puts new_array
-return new_array
+new_string = new_array.join(' ')
+return new_string
 
 end
