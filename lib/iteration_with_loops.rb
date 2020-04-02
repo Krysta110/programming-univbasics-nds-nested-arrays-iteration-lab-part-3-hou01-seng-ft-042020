@@ -9,6 +9,7 @@ while row < src.length do
   while element < src[row].length do
     if src[row][element].class == String
       new_array << src[row][element]
+    end
     element +=1
   end
   row += 1
